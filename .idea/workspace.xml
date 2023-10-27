@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbd9a9e5-f54f-411d-972f-369f639f6b95" name="Changes" comment="homework1 redy">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/templateMethod/LogEntry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/templateMethod/LogReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/templateMethod/PoemReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/templateMethod/Programm.java" afterDir="false" />
+    <list default="true" id="dbd9a9e5-f54f-411d-972f-369f639f6b95" name="Changes" comment="template method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/factoryMethod/BaseLogReaderCreater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/factoryMethod/ConcreteReaderCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/factoryMethod/DatabaseReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/factoryMethod/LogType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/factoryMethod/OperationSystemLogEventReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/factoryMethod/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar2/factoryMethod/TextFileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -75,12 +79,20 @@
       <option name="project" value="LOCAL" />
       <updated>1698081890470</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="template method">
+      <created>1698341560584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698341560584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add class in storeModel" />
     <MESSAGE value="homework1 redy" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework1 redy" />
+    <MESSAGE value="template method" />
+    <option name="LAST_COMMIT_MESSAGE" value="template method" />
   </component>
 </project>
