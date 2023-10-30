@@ -1,7 +1,10 @@
 package seminars.seminar3;
 
 import seminars.seminar3.cars.Harvester;
+import seminars.seminar3.cars.SportCar;
 import seminars.seminar3.enums.Color;
+import seminars.seminar3.interfaces.CarWash;
+import seminars.seminar3.interfaces.Refueling;
 
 public class Program {
     /** 1. Спроектировать abstract class Car
@@ -42,11 +45,22 @@ public class Program {
      *  принципа ISP.
      * */
     public static void main(String[] args) {
-        RefuelingStation refuelingStation = new RefuelingStation();
-        Harvester harvester = new Harvester("A","B", Color.red);
+        Refueling refuelingStation = new RefuelingStation();
+        CarWash carWash = new CarWashStation();
 
+        Car harvester = new Harvester("harvester","kombain", Color.red);
         harvester.setRefueling(refuelingStation);
         harvester.fuel();
+        harvester.setCarWash(carWash);
+        harvester.washing();
+        System.out.println();
+
+        Car sportcar = new SportCar("buggati","veiron", Color.green);
+        sportcar.setCarWash(carWash);
+        sportcar.washing();
+        sportcar.setRefueling(refuelingStation);
+        sportcar.fuel();
+
 
     }
 
