@@ -12,5 +12,7 @@ public interface BusinessLogicalLayer {
 
     void renderModel(Model3D model);
     void renderAllModels();
+    void addModel();
+    void delModel(int id);
 
 }

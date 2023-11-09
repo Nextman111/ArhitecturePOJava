@@ -31,9 +31,12 @@ public class Program {
             System.out.println("5. Отобразить все текстуры проекта");
             System.out.println("6. Выполнить рендер всех моделей");
             System.out.println("7. Выполнить рендер модели");
+            System.out.println("8. Добавить модель");
+            System.out.println("9. Удалить модель");
             System.out.println("0. ЗАВЕРШЕНИЕ РАБОТЫ ПРИЛОЖЕНИЯ");
             System.out.print("Пожалуйста, выберите пункт меню: ");
             if (scanner.hasNextInt()){
+                int id = -1;
                 int no = scanner.nextInt();
                 scanner.nextLine();
                 try {
@@ -61,15 +64,25 @@ public class Program {
                             editor3D.renderAll();
                             break;
                         case 7:
-                            System.out.print("Укажите номер модели: ");
-                            if (scanner.hasNextInt()){
-                                int modelNo = scanner.nextInt();
-                                scanner.nextLine();
-                                editor3D.renderModel(modelNo);
+                            id = get_id();
+
+                            if (id > 0){
+                                editor3D.renderModel(id);
                             }
-                            else {
-                                System.out.println("Номер модели указан некорректно.");
+
+                            break;
+                        case 8:
+                            System.out.println("Добавляю модель... ");
+                            editor3D.addModel();
+                            break;
+                        case 9:
+                            id = get_id();
+
+                            System.out.println("Удаляю модель... " + id);
+                            if (id > 0){
+                                editor3D.delModel(id);
                             }
+
                             break;
                         default:
                             System.out.println("Укажите корректный пункт меню.");
@@ -84,6 +97,23 @@ public class Program {
                 scanner.nextLine();
             }
         }
+    }
+
+    public static int get_id(){
+        System.out.print("Укажите номер модели: ");
+
+        Scanner scanner = new Scanner(System.in);
+        int id = -1;
+
+
+        if (scanner.hasNextInt()){
+            id = scanner.nextInt();
+        }
+        else {
+            System.out.println("Номер модели указан некорректно.");
+        }
+
+        return id;
     }
 
 }

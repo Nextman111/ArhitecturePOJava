@@ -116,5 +116,19 @@ public class Editor3D implements UILayer{
             throw new RuntimeException("Файл проекта не определен.");
     }
 
+    @Override
+    public void addModel() {
+        // Предусловие
+        checkProjectFile();
 
+        businessLogicalLayer.addModel();
+    }
+
+    @Override
+    public void delModel(int id) {
+        // Предусловие
+        checkProjectFile();
+
+        businessLogicalLayer.delModel(id);
+    }
 }

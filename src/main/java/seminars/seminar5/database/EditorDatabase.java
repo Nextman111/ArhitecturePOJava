@@ -43,7 +43,8 @@ public class EditorDatabase implements Database {
         return entities;
     }
 
-    private void generateModelAndTextures(){
+    @Override
+    public Model3D generateModelAndTextures(){
         Model3D model = new Model3D();
         int textureCount = random.nextInt(3);
         for (int i = 0; i < textureCount; i++){
@@ -52,6 +53,7 @@ public class EditorDatabase implements Database {
             entities.add(texture);
         }
         entities.add(model);
+        return model;
     }
 
     private Texture generateTexture(){

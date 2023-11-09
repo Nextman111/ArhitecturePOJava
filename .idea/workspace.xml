@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbd9a9e5-f54f-411d-972f-369f639f6b95" name="Changes" comment="seminar5 task preparation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ProjectFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/BusinessLogicalLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/EditorBusinessLogicalLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/EditorDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/databaseaccess/DatabaseAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/databaseaccess/EditorDatabaseAccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/entity/Model3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/entity/Texture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/Editor3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/UILayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/BusinessLogicalLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/BusinessLogicalLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/EditorBusinessLogicalLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/EditorBusinessLogicalLayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/EditorDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/EditorDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/databaseaccess/EditorDatabaseAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/databaseaccess/EditorDatabaseAccess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/Editor3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/Editor3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/UILayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/UILayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698704666784</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="seminar5 task preparation">
+      <created>1699373830984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699373830984</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

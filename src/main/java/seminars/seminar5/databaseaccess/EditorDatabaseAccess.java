@@ -38,6 +38,8 @@ public class EditorDatabaseAccess implements DatabaseAccess{
         editorDatabase.getAll().remove(entity);
     }
 
+
+
     /**
      * Получить список всех текстур
      * @return
