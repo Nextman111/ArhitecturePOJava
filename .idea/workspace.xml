@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbd9a9e5-f54f-411d-972f-369f639f6b95" name="Changes" comment="seminar6 prepare">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/Program.java" afterDir="false" />
+    <list default="true" id="dbd9a9e5-f54f-411d-972f-369f639f6b95" name="Changes" comment="seminar8 prepare">
       <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/application/ConcreteNoteEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/application/ConcreteNoteEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/application/interfaces/NotesDatabaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/application/interfaces/NotesDatabaseContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/database/NotesDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/database/NotesDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/infrastructure/persistance/DatabaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/infrastructure/persistance/DatabaseContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/infrastructure/persistance/DbContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/infrastructure/persistance/DbContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/presentation/queries/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/presentation/queries/controllers/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/presentation/queries/controllers/NotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/presentation/queries/controllers/NotesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +51,7 @@
       <recent name="D:\lernGeekBrains\ArchitecturePO\JAVA\Seminar1\src\main\java\seminars\seminar1\strore\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.seminars.seminar5.Program">
+  <component name="RunManager" selected="Application.seminars.seminar8.Program">
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapter.Program" />
       <module name="Seminar1" />
@@ -99,8 +91,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="seminars.seminar8.Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="seminars.seminar8.Program" />
+      <module name="Seminar1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seminars.seminar8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.seminars.seminar8.Program" />
         <item itemvalue="Application.seminars.seminar5.Program" />
         <item itemvalue="Application.seminars.seminar3.Program" />
         <item itemvalue="Application.Program" />
@@ -172,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699373830984</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="seminar8 prepare">
+      <created>1700186341116</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1700186341116</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +207,7 @@
     <MESSAGE value="seminar3 zagotovka" />
     <MESSAGE value="seminar3 homework" />
     <MESSAGE value="seminar5 task preparation" />
-    <option name="LAST_COMMIT_MESSAGE" value="seminar5 task preparation" />
+    <MESSAGE value="seminar8 prepare" />
+    <option name="LAST_COMMIT_MESSAGE" value="seminar8 prepare" />
   </component>
 </project>

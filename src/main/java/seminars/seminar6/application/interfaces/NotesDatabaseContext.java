@@ -8,6 +8,8 @@ public interface NotesDatabaseContext {
 
     Collection<Note> getAll();
 
+    boolean saveChanges();
+
 //    boolean saveChanges();
 
 
