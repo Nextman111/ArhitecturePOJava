@@ -3,6 +3,7 @@ package seminars.seminar6.infrastructure.persistance;
 import seminars.seminar6.application.interfaces.NotesDatabaseContext;
 import seminars.seminar6.database.NotesDatabase;
 import seminars.seminar6.database.NotesRecord;
+import seminars.seminar6.database.NotesTable;
 import seminars.seminar6.domain.Note;
 import seminars.seminar6.infrastructure.persistance.entityconfiguration.NoteConfiguration;
 
@@ -31,5 +32,12 @@ public class DatabaseContext extends DbContext implements NotesDatabaseContext {
     @Override
     protected void onModelCreating(ModelBuilder builder) {
         builder.applyConfiguration(new NoteConfiguration());
+    }
+
+    @Override
+    public boolean saveChanges(Collection<Note> notes) {
+        ((NotesDatabase)database).setNotesTable((NotesTable) notes);
+        return true;
+
     }
 }

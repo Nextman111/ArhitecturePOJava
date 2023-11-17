@@ -4,16 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dbd9a9e5-f54f-411d-972f-369f639f6b95" name="Changes" comment="seminar5 task preparation">
+    <list default="true" id="dbd9a9e5-f54f-411d-972f-369f639f6b95" name="Changes" comment="seminar6 prepare">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/BusinessLogicalLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/BusinessLogicalLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/EditorBusinessLogicalLayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/buisneslogic/EditorBusinessLogicalLayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/EditorDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/database/EditorDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/databaseaccess/EditorDatabaseAccess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/databaseaccess/EditorDatabaseAccess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/Editor3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/Editor3D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/UILayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar5/ui/UILayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/application/ConcreteNoteEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/application/ConcreteNoteEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/application/interfaces/NotesDatabaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/application/interfaces/NotesDatabaseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/database/NotesDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/database/NotesDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/infrastructure/persistance/DatabaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/infrastructure/persistance/DatabaseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/infrastructure/persistance/DbContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/infrastructure/persistance/DbContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/presentation/queries/controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/presentation/queries/controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/seminars/seminar6/presentation/queries/controllers/NotesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/seminars/seminar6/presentation/queries/controllers/NotesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

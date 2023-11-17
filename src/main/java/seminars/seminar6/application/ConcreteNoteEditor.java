@@ -33,12 +33,17 @@ public class ConcreteNoteEditor implements NoteEditor {
 
     @Override
     public boolean remove(Note item) {
-        dbContext.getAll().remove(item);
-        return dbContext.saveChanges();
+        return dbContext.saveChanges(getAll().remove(item));
     }
 
     @Override
-    public Optional<Note> getById(Integer integer) {
+    public Optional<Note> getById(Integer id) {
+        for (Note note : getAll()){
+            if (note.getId()==id){
+                return Optional.of(note);
+            }
+        }
+
         return Optional.empty();
     }
 

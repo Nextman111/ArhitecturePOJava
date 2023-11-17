@@ -1,5 +1,9 @@
 package seminars.seminar6.infrastructure.persistance;
 
+import seminars.seminar6.domain.Note;
+
+import java.util.Collection;
+
 public abstract class DbContext {
 
     protected Database database;
@@ -10,9 +14,7 @@ public abstract class DbContext {
 
     protected abstract void onModelCreating(ModelBuilder builder);
 
-    public boolean saveChanges(){
-        //TODO: Сохранение изменений в базе данных
-        return true;
-    }
+    //TODO: Сохранение изменений в базе данных
 
+    public abstract boolean saveChanges(Collection<Note> notes);
 }
