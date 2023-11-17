@@ -11,4 +11,7 @@ public interface Model {
 
     int reservationTable(Date reservationDate, int tableNo, String name);
 
+    boolean removeRezervation(int oldReservation);
+
+    int changeRservationTable(int oldReservation, Date reservtionDate, int tableNo, String name);
 }

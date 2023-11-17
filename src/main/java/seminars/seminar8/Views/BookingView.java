@@ -20,7 +20,10 @@ public class BookingView implements View {
     @Override
     public void showTables(Collection<Table> tables) {
         for (Table table : tables){
-            System.out.println(table);
+            if (table.getReservations().isEmpty())
+                System.out.println(table);
+            else
+                System.out.println(table + " Резерв "+ table.getReservations());
         }
     }
 
@@ -32,12 +35,20 @@ public class BookingView implements View {
             System.out.println("Невозможно забронировать столик.\nПовторите попытку позже.");
     }
 
+    @Override
+    public void removeReservationTable(Integer id) {
+        for (ViewObserver observer : observers)
+            observer.onRemoveReservationTable(id);
+    }
+
     public void reservationTable(Date reservtionDate, int tableNo, String name){
         for (ViewObserver observer : observers)
             observer.onReservationTable(reservtionDate, tableNo, name);
     }
 
     public void changeReservationTable(int oldReservation, Date reservtionDate, int tableNo, String name){
+        for (ViewObserver observer : observers)
+            observer.onChangeReservationTable(oldReservation,reservtionDate, tableNo, name);
 
     }
 

@@ -33,7 +33,8 @@ public class ConcreteNoteEditor implements NoteEditor {
 
     @Override
     public boolean remove(Note item) {
-        return dbContext.saveChanges(getAll().remove(item));
+//        return dbContext.saveChanges(getAll().remove(item));
+        return true;
     }
 
     @Override

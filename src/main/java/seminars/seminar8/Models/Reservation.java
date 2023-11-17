@@ -18,6 +18,7 @@ public class Reservation {
     {
         id = ++counter;
     }
+
     private Date date;
 
     private String name;
@@ -31,8 +32,12 @@ public class Reservation {
     }
 
 
-
     public int getId() {
         return id;
+    }
+
+    @Override
+    public String toString() {
+        return "#" + id + " " + name;
     }
 }

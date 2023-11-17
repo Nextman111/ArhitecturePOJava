@@ -24,6 +24,11 @@ public class DatabaseContext extends DbContext implements NotesDatabaseContext {
         return notes;
     }
 
+    @Override
+    public boolean saveChanges() {
+        return false;
+    }
+
 
     public DatabaseContext(Database database) {
         super(database);
@@ -38,6 +43,5 @@ public class DatabaseContext extends DbContext implements NotesDatabaseContext {
     public boolean saveChanges(Collection<Note> notes) {
         ((NotesDatabase)database).setNotesTable((NotesTable) notes);
         return true;
-
     }
 }
